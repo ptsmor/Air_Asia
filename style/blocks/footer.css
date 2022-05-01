@@ -56,39 +56,3 @@
 .social__item--ins .social__link:hover {
   background-image: url("../../jpg/inn.png");
 }
-
-/*
-.contacts__text {
-font-size: 11px;
-line-height: 20px;
-color: #9A9A9A;
-text-decoration-line: underline;
-font-style: normal;
-text-align: end;
-}
-.social__list {
-    position: absolute;
-    top: 0px;
-    right: 300px;
-}
-.social__link {
-    display: inline-block;
-    width: 36px;
-    height: 36px;
-}
-.social__item {
-    display: inline-block;
-    vertical-align: middle;
-    margin-right: 10px;
-}
-.social__item:last-child {
-    margin-right: 0;
-}
-.social__list {
-    top: 49px;
-    right: 300px;
-}
-.social__link .social__link--tel :hover {
-    background-image: url("../../jpg/tn.png");
-}
-*/
