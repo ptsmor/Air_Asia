@@ -1,0 +1,76 @@
+.offers {
+  margin-bottom: 130px;
+}
+.title {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 42px;
+}
+.title--fire {
+  margin-bottom: 54px;
+}
+.title--fire::after {
+  padding-left: 12px;
+  content: url(../../jpg/flame.png);
+}
+.offers__item {
+  min-height: 450px;
+  width: 362px;
+  border-radius: 5px;
+  background: #ffffff;
+  display: inline-block;
+  margin-right: 23px;
+}
+.offers__item:last-child {
+  margin-right: 0;
+}
+.offers__img {
+  min-height: 145px;
+  margin-bottom: 10px;
+}
+.offers__content {
+  padding: 25px 22px;
+  color: #000000;
+}
+.offers__title {
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 28px;
+  margin-bottom: 23px;
+}
+.offers__future,
+.offers__future-img,
+.offers__future-text {
+  display: inline;
+  vertical-align: middle;
+}
+.offers__future-text {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  margin-left: 10px;
+  margin-right: 28px;
+  width: 90px;
+  color: #666666;
+}
+.offers__features {
+  margin-bottom: 23px;
+}
+.offers__text {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 21px;
+  color: #303030;
+  margin-bottom: 25px;
+}
+.button--light {
+  text-transform: uppercase;
+  color: #f5170e;
+  background: #ffffff;
+  border: 1px solid #f5170e;
+  padding: 18px 30px;
+}
+.button--red {
+  color: #ffffff;
+  padding: 18px 30px;
+}

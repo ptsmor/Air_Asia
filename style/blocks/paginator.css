@@ -1,0 +1,31 @@
+.paginator {
+  text-align: center;
+}
+.paginator__display,
+.paginator__list {
+  display: inline-block;
+  vertical-align: middle;
+}
+.paginator__display {
+  margin-right: 36px;
+}
+.paginator__item {
+  display: inline-block;
+  vertical-align: middle;
+}
+.paginator__link {
+  display: block;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  font-weight: bold;
+  line-height: 32px;
+}
+.paginator__item--active .paginator__link {
+  background: #ffffff;
+  color: #f5170e;
+}
+.paginator__link:hover {
+  background: #ffffff;
+  color: #f5170e;
+}
