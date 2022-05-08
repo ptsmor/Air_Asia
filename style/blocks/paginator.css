@@ -1,17 +1,17 @@
 .paginator {
-  text-align: center;
-}
-.paginator__display,
-.paginator__list {
-  display: inline-block;
-  vertical-align: middle;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .paginator__display {
-  margin-right: 36px;
+  margin-right: 26px;
+}
+.paginator__list {
+  display: flex;
+  align-items: center;
 }
 .paginator__item {
-  display: inline-block;
-  vertical-align: middle;
+  text-align: center;
 }
 .paginator__link {
   display: block;

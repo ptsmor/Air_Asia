@@ -3,7 +3,21 @@
 }
 .footer {
   height: 146px;
-  position: relative;
+}
+.footer__service {
+  height: 132px;
+}
+.footer__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer__col {
+  display: flex;
+  align-items: center;
+}
+.footer__col--align--right {
+  align-items: flex-end;
 }
 
 .contacts__desc {
@@ -22,15 +36,13 @@
 .social__item {
   display: inline-block;
   vertical-align: middle;
-  margin-right: 9px;
+  margin-right: 6px;
 }
 .social__item:last-child {
   margin-right: 0;
 }
-.social {
-  top: 32px;
-  position: absolute;
-  margin-left: 703px;
+.social__list {
+  margin-left: 200px;
 }
 .social__item--tel .social__link {
   background-image: url("../../jpg/telegram.png");

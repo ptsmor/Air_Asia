@@ -1,4 +1,16 @@
 .header {
-  height: 77px;
-  margin-bottom: 120px;
+  padding-top: 25px;
+  margin-bottom: 30px;
+}
+.header__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header__col {
+  display: flex;
+  align-items: center;
+}
+.header__col--align--right {
+  justify-content: flex-end;
 }
