@@ -7,7 +7,7 @@ display: flex;
 .about__content:before {
   content: "";
   
-  vertical-align: top;
+/*   vertical-align: top; */
   width: 490px;
   height: 505px;
   background: url("../../jpg/gates.png") center center / cover no-repeat;
@@ -18,7 +18,7 @@ display: flex;
   padding: 76px 80px;
   background-repeat: no-repeat;
   
-  vertical-align: top;
+/*   vertical-align: top; */
   width: 785px;
   height: 455px;
   margin-left: -140px;
