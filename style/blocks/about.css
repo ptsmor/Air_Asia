@@ -3,7 +3,7 @@
 }
 .about__content:before {
   content: "";
-  display: inline-block;
+  display: flex;
   vertical-align: top;
   width: 490px;
   height: 505px;
@@ -14,7 +14,7 @@
   background: url("../../jpg/mountains.png");
   padding: 76px 80px;
   background-repeat: no-repeat;
-  display: inline-block;
+  display: flex;
   vertical-align: top;
   width: 785px;
   height: 455px;
