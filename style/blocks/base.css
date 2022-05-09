@@ -2,7 +2,6 @@ html {
   font-family: "Open Sans", sans-serif;
   scroll-behavior: smooth;
   font-size: 16px;
-  min-width: 1142px;
 }
 
 body,
@@ -61,10 +60,6 @@ a {
   transition: 0.3s all;
 }
 
-.menu__link:hover {
-  color: #da0100;
-}
-
 img {
   display: block;
   max-width: 100%;
@@ -76,6 +71,7 @@ img {
   min-height: 100%;
   display: flex;
   flex-direction: column;
+  min-width: 1142px;
 }
 .wrapper__content {
   flex: 1;
@@ -93,42 +89,7 @@ img {
   max-width: 1141px;
 }
 
-.logo,
-.menu,
-.menu__item,
-.contacts {
-  display: inline-block;
-}
-
-.logo,
-.contacts {
-  margin-top: 29px;
-}
-.logo {
-  float: left;
-}
-.contacts {
-  float: right;
-}
-.menu {
-  margin: 43px;
-  margin-left: 79px;
-}
-.menu__item {
-  margin-right: 43px;
-}
-.menu__item:last-child {
-  margin-right: 0;
-}
-.contacts__phone {
-  font-size: 26px;
-  line-height: 30px;
-  font-style: normal;
-}
-.contacts__info {
-  font-size: 13px;
-  line-height: 20px;
-  text-decoration-line: underline;
-  font-style: normal;
-  text-align: end;
-}
+/* table {
+  border-collapse: collapse;
+  border-spacing: 0;
+} */
