@@ -1,5 +1,7 @@
 .about {
   margin-bottom: 48px;
+}
+.about__content {
 display: flex;
 }
 .about__content:before {
