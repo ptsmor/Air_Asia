@@ -1,6 +1,6 @@
-.menu,
-.menu__item {
-  display: inline-block;
+.menu__list {
+  display: flex;
+  align-items: center;
 }
 .menu {
   margin-left: 79px;

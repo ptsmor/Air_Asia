@@ -2,12 +2,10 @@
   margin-bottom: 48px;
 }
 .about__content {
-display: flex;
-}
+  display: flex;
+  }
 .about__content:before {
   content: "";
-  
-/*   vertical-align: top; */
   width: 490px;
   height: 505px;
   background: url("../../jpg/gates.png") center center / cover no-repeat;
@@ -17,8 +15,6 @@ display: flex;
   background: url("../../jpg/mountains.png");
   padding: 76px 80px;
   background-repeat: no-repeat;
-  
-/*   vertical-align: top; */
   width: 785px;
   height: 455px;
   margin-left: -140px;

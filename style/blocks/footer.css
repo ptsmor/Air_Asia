@@ -34,15 +34,15 @@
   background: center center no-repeat;
 }
 .social__item {
-  display: inline-block;
-  vertical-align: middle;
-  margin-right: 6px;
+  margin-right: 8px;
 }
 .social__item:last-child {
   margin-right: 0;
 }
 .social__list {
   margin-left: 200px;
+  display: flex;
+  align-items: center;
 }
 .social__item--tel .social__link {
   background-image: url("../../jpg/telegram.png");

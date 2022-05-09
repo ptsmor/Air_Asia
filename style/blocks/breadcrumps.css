@@ -1,9 +1,13 @@
 .breadcrumps {
   margin-bottom: 30px;
 }
+.breadcrumps__list {
+  display: flex;
+  align-items: center;
+}
 .breadcrumps__item {
-  display: inline-block;
-  vertical-align: middle;
+  display: flex;
+  align-items: center;
 }
 .breadcrumps__item:after {
   content: "/";
