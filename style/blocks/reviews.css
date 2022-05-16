@@ -1,0 +1,71 @@
+.review {
+  display: inline-flex;
+  flex-direction: column;
+  padding: 50px 30px 35px;
+  background: #f4f5f5;
+  border-radius: 5px;
+}
+.review-content {
+  background: #ffffff;
+  color: #303030;
+  padding-top: 98px;
+  padding-bottom: 90px;
+}
+.reviews {
+  column-count: 2;
+  column-gap: 27px;
+  margin-bottom: 56px;
+}
+.reviews__item {
+  margin-bottom: 17px;
+}
+.avatar {
+  width: 140px;
+  height: 140px;
+  overflow: hidden;
+  border-radius: 50%;
+}
+.review__header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 27px;
+}
+.review__userdata {
+  padding-left: 20px;
+}
+.review__user {
+  display: flex;
+  align-items: center;
+  font-size: 24px;
+  font-weight: bold;
+  color: #1a1b1e;
+  margin-bottom: 12px;
+}
+.review__user:after {
+  content: url("../../jpg/vkrev.png");
+  height: 30px;
+  padding-left: 5px;
+}
+.review__user--active {
+  text-decoration-line: underline;
+  color: #2e77a4;
+}
+
+.review__title {
+  font-size: 30px;
+  color: #1a1b1e;
+  font-weight: bold;
+  margin-bottom: 15px;
+  line-height: 40px;
+}
+.review__content-text {
+  font-size: 16px;
+  color: #818181;
+  margin-bottom: 49px;
+  line-height: 26px;
+}
+.review__data {
+  font-weight: 600;
+  font-size: 14px;
+  color: #1a1b1e;
+}

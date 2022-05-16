@@ -79,7 +79,7 @@ img {
 }
 
 .wrapper__content--main {
-  background: url(../../jpg/fone.png) center center no-repeat;
+  background: url(../../jpg/fone.png) center top no-repeat;
 }
 
 .container {

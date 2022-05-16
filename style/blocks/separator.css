@@ -1,0 +1,17 @@
+.separator {
+  background: url("../../jpg/bssep.png") center center no-repeat;
+  min-height: 363px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.separator__content {
+  max-width: 53%;
+}
+.separator__title {
+  font-size: 48px;
+  line-height: 64px;
+  white-space: pre-line;
+  font-weight: bold;
+  margin-bottom: 60px;
+}

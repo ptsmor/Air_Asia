@@ -29,3 +29,14 @@
   background: #ffffff;
   color: #f5170e;
 }
+.pager--theme--dark {
+  color: #000000;
+}
+.pager--theme--dark .paginator__item--active .paginator__link {
+  background: #f5170e;
+  color: #ffffff;
+}
+.pager--theme--dark .paginator__link:hover {
+  background: #f5170e;
+  color: #ffffff;
+}

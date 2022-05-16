@@ -3,7 +3,7 @@
 }
 .about__content {
   display: flex;
-  }
+}
 .about__content:before {
   content: "";
   width: 490px;

@@ -1,6 +1,7 @@
 .offers {
   margin-bottom: 130px;
 }
+
 .title {
   font-weight: bold;
   font-size: 36px;
@@ -22,6 +23,8 @@
   width: calc(100% / 3 - 18px);
   border-radius: 5px;
   background: #ffffff;
+  display: flex;
+  flex-direction: column;
 }
 .offers__item:last-child {
   margin-right: 0;
@@ -33,6 +36,9 @@
 .offers__content {
   padding: 25px 22px;
   color: #000000;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
 }
 .offers__future {
   display: flex;
@@ -75,4 +81,7 @@
 }
 .button--offers {
   padding: 18px 30px;
+}
+.offer__btn-wrapper {
+  margin-top: auto;
 }

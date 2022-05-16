@@ -1,0 +1,14 @@
+.review__tags {
+  display: flex;
+  align-items: flex-start;
+}
+.tag {
+  font-size: 13px;
+  color: #303030;
+  padding: 10px 18px;
+  background: #e7e7e7;
+  border-radius: 35px;
+}
+.tag--bg--green {
+  background: #b9eae4;
+}

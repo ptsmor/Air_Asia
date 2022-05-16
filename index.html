@@ -34,7 +34,7 @@
                     <a href="./service.html" class="menu__link">Услуги</a>
                   </li>
                   <li class="menu__item">
-                    <a href="#" class="menu__link">Отзывы</a>
+                    <a href="./reviews.html" class="menu__link">Отзывы</a>
                   </li>
                 </ul>
               </nav>
@@ -44,7 +44,13 @@
                 <a href="tel:+78007003030" class="contacts__phone"
                   >8 800 700 30 30</a
                 >
-                <div class="contacts__info">График работы</div>
+                <div class="contacts__info_wrap dropdown">
+                  <div class="contacts__info">График работы</div>
+                  <div class="contacts__menu">
+                    <div class="dropdown__days">пн-вс: 9:00 - 20:00</div>
+                    <div class="dropdown__time">Обед: 14:00 - 14:30</div>
+                  </div>
+                </div>
               </address>
             </div>
           </div>
@@ -61,110 +67,118 @@
           </section>
           <section class="offers">
             <div class="container">
-              <h2 class="title title--fire">Горящие туры</h2>
-              <ul class="offers__list">
-                <li class="offers__item">
-                  <img
-                    src="./jpg/river.png"
-                    alt="Tailand"
-                    class="offers__img"
-                  />
-                  <div class="offers__content">
-                    <h3 class="offers__title">Таиланд</h3>
-                    <ul class="offers__features">
-                      <li class="offers__future">
-                        <img
-                          src="./jpg/calendar.png"
-                          alt="calendar"
-                          class="offers__future-img"
-                        />
-                        <div class="offers__future-text">7-12 ночей</div>
-                      </li>
-                      <li class="offers__future">
-                        <img
-                          src="./jpg/eat.png"
-                          alt="breakfast"
-                          class="offers__future-img"
-                        />
-                        <div class="offers__future-text">Завтраки</div>
-                      </li>
-                    </ul>
-                    <p class="offers__text">
-                      Равным образом постоянное обеспечение нашей деятельности
-                      позволяет оценить значение систем массового участия.
-                    </p>
-                    <a href="#" class="button button--light button--offers"
-                      >СМОТРЕТЬ</a
-                    >
-                  </div>
-                </li>
-                <li class="offers__item">
-                  <img src="./jpg/pool.png" alt="Bali" class="offers__img" />
-                  <div class="offers__content">
-                    <h3 class="offers__title">Бали</h3>
-                    <ul class="offers__features">
-                      <li class="offers__future">
-                        <img
-                          src="./jpg/calendar.png"
-                          alt="calendar"
-                          class="offers__future-img"
-                        />
-                        <div class="offers__future-text">7-12 ночей</div>
-                      </li>
-                      <li class="offers__future">
-                        <img
-                          src="./jpg/eat.png"
-                          alt="breakfast"
-                          class="offers__future-img"
-                        />
-                        <div class="offers__future-text">Завтраки</div>
-                      </li>
-                    </ul>
-                    <p class="offers__text">
-                      Равным образом постоянное обеспечение нашей деятельности
-                      позволяет оценить значение систем массового участия.
-                    </p>
-                    <a href="#" class="button button--red button--offers"
-                      >СМОТРЕТЬ</a
-                    >
-                  </div>
-                </li>
-                <li class="offers__item">
-                  <img
-                    src="./jpg/ocean.png"
-                    alt="indonesia"
-                    class="offers__img"
-                  />
-                  <div class="offers__content">
-                    <h3 class="offers__title">Индонезия</h3>
-                    <ul class="offers__features">
-                      <li class="offers__future">
-                        <img
-                          src="./jpg/calendar.png"
-                          alt="calendar"
-                          class="offers__future-img"
-                        />
-                        <div class="offers__future-text">7-12 ночей</div>
-                      </li>
-                      <li class="offers__future">
-                        <img
-                          src="./jpg/eat.png"
-                          alt="breakfast"
-                          class="offers__future-img"
-                        />
-                        <div class="offers__future-text">Завтраки</div>
-                      </li>
-                    </ul>
-                    <p class="offers__text">
-                      Равным образом постоянное обеспечение нашей деятельности
-                      позволяет оценить значение систем массового участия.
-                    </p>
-                    <a href="#" class="button button--light button--offers"
-                      >СМОТРЕТЬ</a
-                    >
-                  </div>
-                </li>
-              </ul>
+              <div class="offers__tour">
+                <h2 class="title title--fire">Горящие туры</h2>
+                <ul class="offers__list">
+                  <li class="offers__item">
+                    <img
+                      src="./jpg/river.png"
+                      alt="Tailand"
+                      class="offers__img"
+                    />
+                    <div class="offers__content">
+                      <h3 class="offers__title">Таиланд</h3>
+                      <ul class="offers__features">
+                        <li class="offers__future">
+                          <img
+                            src="./jpg/calendar.png"
+                            alt="calendar"
+                            class="offers__future-img"
+                          />
+                          <div class="offers__future-text">7-12 ночей</div>
+                        </li>
+                        <li class="offers__future">
+                          <img
+                            src="./jpg/eat.png"
+                            alt="breakfast"
+                            class="offers__future-img"
+                          />
+                          <div class="offers__future-text">Завтраки</div>
+                        </li>
+                      </ul>
+                      <p class="offers__text">
+                        Равным образом постоянное обеспечение нашей деятельности
+                        позволяет оценить значение систем массового участия.
+                      </p>
+                      <div class="offer__btn-wrapper">
+                        <a href="#" class="button button--light button--offers"
+                          >СМОТРЕТЬ</a
+                        >
+                      </div>
+                    </div>
+                  </li>
+                  <li class="offers__item">
+                    <img src="./jpg/pool.png" alt="Bali" class="offers__img" />
+                    <div class="offers__content">
+                      <h3 class="offers__title">Бали</h3>
+                      <ul class="offers__features">
+                        <li class="offers__future">
+                          <img
+                            src="./jpg/calendar.png"
+                            alt="calendar"
+                            class="offers__future-img"
+                          />
+                          <div class="offers__future-text">7-12 ночей</div>
+                        </li>
+                        <li class="offers__future">
+                          <img
+                            src="./jpg/eat.png"
+                            alt="breakfast"
+                            class="offers__future-img"
+                          />
+                          <div class="offers__future-text">Завтраки</div>
+                        </li>
+                      </ul>
+                      <p class="offers__text">
+                        Равным образом постоянное обеспечение нашей деятельности
+                        позволяет оценить значение систем массового участия.
+                      </p>
+                      <div class="offer__btn-wrapper">
+                        <a href="#" class="button button--red button--offers"
+                          >СМОТРЕТЬ</a
+                        >
+                      </div>
+                    </div>
+                  </li>
+                  <li class="offers__item">
+                    <img
+                      src="./jpg/ocean.png"
+                      alt="indonesia"
+                      class="offers__img"
+                    />
+                    <div class="offers__content">
+                      <h3 class="offers__title">Индонезия</h3>
+                      <ul class="offers__features">
+                        <li class="offers__future">
+                          <img
+                            src="./jpg/calendar.png"
+                            alt="calendar"
+                            class="offers__future-img"
+                          />
+                          <div class="offers__future-text">7-12 ночей</div>
+                        </li>
+                        <li class="offers__future">
+                          <img
+                            src="./jpg/eat.png"
+                            alt="breakfast"
+                            class="offers__future-img"
+                          />
+                          <div class="offers__future-text">Завтраки</div>
+                        </li>
+                      </ul>
+                      <p class="offers__text">
+                        Равным образом постоянное обеспечение нашей деятельности
+                        позволяет оценить значение систем массового участия.
+                      </p>
+                      <div class="offer__btn-wrapper">
+                        <a href="#" class="button button--light button--offers"
+                          >СМОТРЕТЬ</a
+                        >
+                      </div>
+                    </div>
+                  </li>
+                </ul>
+              </div>
             </div>
           </section>
           <section class="news">
@@ -274,30 +288,32 @@
                   <a href="./service.html" class="menu__link">Услуги</a>
                 </li>
                 <li class="menu__item">
-                  <a href="#" class="menu__link">Отзывы</a>
+                  <a href="./reviews.html" class="menu__link">Отзывы</a>
                 </li>
               </ul>
             </nav>
           </div>
           <div class="footer__col footer__col--align--right">
             <ul class="social__list">
-              <li class="social__item social__item--tel">
-                <a href="" class="social__link"></a>
+              <li class="social__item">
+                <a href="" class="social__link social__link--tel"></a>
               </li>
-              <li class="social__item social__item--vk">
-                <a href="" class="social__link"></a>
+              <li class="social__item">
+                <a href="" class="social__link social__link--vk"></a>
               </li>
-              <li class="social__item social__item--fb">
-                <a href="" class="social__link"></a>
+              <li class="social__item">
+                <a href="" class="social__link social__link--fb"></a>
               </li>
-              <li class="social__item social__item--ins">
-                <a href="" class="social__link"></a>
+              <li class="social__item">
+                <a href="" class="social__link social__link--ins"></a>
               </li>
             </ul>
           </div>
           <address class="contacts">
             <div class="contacts__desc">Бесплатный звонок по России</div>
-            <a href="tel:+78007003030" class="contacts__phone">8 800 700 30 30</a>
+            <a href="tel:+78007003030" class="contacts__phone"
+              >8 800 700 30 30</a
+            >
           </address>
         </div>
       </footer>
