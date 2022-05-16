@@ -70,18 +70,4 @@
   color: #303030;
   margin-bottom: 25px;
 }
-.button--light {
-  text-transform: uppercase;
-  color: #f5170e;
-  background: #ffffff;
-  border: 1px solid #f5170e;
-}
-.button--red {
-  color: #ffffff;
-}
-.button--offers {
-  padding: 18px 30px;
-}
-.offer__btn-wrapper {
-  margin-top: auto;
-}
+

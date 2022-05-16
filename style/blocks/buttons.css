@@ -1,0 +1,31 @@
+.button {
+    background: #f5170e;
+    border-radius: 35px;
+    padding: 18px 40px;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    text-transform: uppercase;
+    display: inline-block;
+  }
+.button--light {
+    text-transform: uppercase;
+    color: #f5170e;
+    background: #ffffff;
+    border: 1px solid #f5170e;
+  }
+  .button--light:hover {
+    border-color: #d39492;
+  }
+  .button--red {
+    color: #ffffff;
+  }
+  .button--red:hover {
+    background-color: #da0100;
+  }
+  .button--offers {
+    padding: 18px 30px;
+  }
+  .offer__btn-wrapper {
+    margin-top: auto;
+  }
