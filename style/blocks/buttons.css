@@ -15,7 +15,8 @@
     border: 1px solid #f5170e;
   }
   .button--light:hover {
-    border-color: #d39492;
+    color: #ffffff;
+    background-color: #da0100;
   }
   .button--red {
     color: #ffffff;
