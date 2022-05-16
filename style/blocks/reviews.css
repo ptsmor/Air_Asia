@@ -41,15 +41,19 @@
   color: #1a1b1e;
   margin-bottom: 12px;
 }
+.review__user:hover {
+  text-decoration-line: underline;
+  color: #2e77a4;
+}
 .review__user:after {
   content: url("../../jpg/vkrev.png");
   height: 30px;
   padding-left: 5px;
 }
-.review__user--active {
+/* .review__user--active {
   text-decoration-line: underline;
   color: #2e77a4;
-}
+} */
 
 .review__title {
   font-size: 30px;

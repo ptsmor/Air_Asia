@@ -76,3 +76,10 @@
 .form__button:last-child {
   margin-right: 0px;
 }
+.form__title {
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 56px;
+  color: #1a1b1e;
+  margin-bottom: 60px;
+}
